@@ -1,0 +1,14 @@
+body{
+background-color: darkorange;
+color: rgb(245, 8, 8);
+}
+
+
+h1{
+
+    color: honeydew;
+    background-color: green;
+    font: italic 200% fantasy;
+    text-align: center;
+    border: 3px groove #0d09f0;
+}
