@@ -79,3 +79,24 @@ table{
     width: auto;
     padding: 10px;
 }
+
+
+input[type=text] {
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(129, 150, 170);
+    color: green;
+}
+input[type="text"]:focus{
+    border: 5px solid chocolate;
+}
+input[type=password] {
+    width: 100%;
+    padding: 15px 22px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    background-color: rgb(99, 11, 241);
+    color: rgb(243, 245, 243);
+}
