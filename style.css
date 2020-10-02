@@ -100,3 +100,35 @@ input[type=password] {
     background-color: rgb(99, 11, 241);
     color: rgb(243, 245, 243);
 }
+input[type=submit] {
+    background-color: rgb(27, 196, 12);
+    color: rgb(0, 0, 0);
+    width: fit-content;
+    padding: 10px 22px;
+    border: 5px solid brown;
+}
+
+input[type=reset] {
+background-color: rgb(27, 196, 12);
+color: rgb(0, 0, 0);
+width: fit-content;
+padding:10px 22px;
+border: 5px solid brown;
+
+}
+
+
+input[type=submit]:hover{
+    background-color: cornsilk;
+    color: darkgreen;
+    border-radius: 10px;
+    width: 120px;
+}
+
+input[type=reset]:hover {
+    background-color: cornsilk;
+    color: darkgreen;
+    border-radius: 10px;
+    width: 120px;
+
+}
